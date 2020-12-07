@@ -11,25 +11,21 @@ const Intro = () => (
   <div className="intro">
     <h2>About SW WA Tip jar</h2>
     <p>
-      SW WA Tip Jar is an opportunity to share a small act of kindness with our
-      Service Industry community during these uncertain times. With a government
-      mandate in effect that started all the way back on Tuesday, March 17th, all restaurants and bars were forced to closed.
-      We were fortunate and were able to re-open, albeit it wasn't the same. We have guest count caps, cant eat inside, and with
-      Winter being here, we are nowhere near the sales we should be at this time. Our friends are hurting right now and the holidays are here. 
-      I have had the fortunate ability to learn how to make websites during our lockdown and wanted to help out. So, I am doing what I do best and connecting:
+      SW WA Tip Jar is an opportunity to share an act of kindness with local Service Industry crews during these uncertain times.
+      Since March, restaurants and bars were forced to closed, then reopen with plenty of restrictions in place. Sales and available work hours are limited and our friends are hurting right now.
+      I had the opportunity to learn how to create websites during lockdown and wanted to help out. So, I am doing what I do best and connecting.
     </p>
+    <h3>It's Simple!</h3>
     <p>
-      The premise is simple: Tip a dollar, $5, $10, $20—or whatever you’d
-      like—directly to a Service Industry worker! Tip someone at random or
-      browse the <Link to="/donate">full list to find your favorite spots</Link>
-      .
+      Tip $1, $5, $10, $20 —whatever you’d like— directly to your favorite Service Industry workers! Send a <Link to="/donate">tip now</Link>.
+Don’t worry, we’re not all good with names. Tip someone at random or browse the full list to find your favorite spots.
+If you’re a Service Industry worker, fill out the form to receive tips directly through your Cashapp, Venmo, or PayPal. Front and Back of House welcome. And as a friendly reminder, all the answers to the questions are public-facing. Be cool.
     </p>
     <p>
       If you’re a Service Industry worker,{" "}
       <Link to="/signup">fill out the form to receive tips</Link> directly
       through your Cashapp, Venmo, or PayPal.
     </p>
-    <p>Friendly reminder all the answers to the questions are public-facing.<em>So be cool</em></p>
   </div>
 );
 
@@ -37,11 +33,16 @@ const Pledge = () => (
   <div className="pledge">
     <h2>Take the pledge!</h2>
     <p>
-      Take the pledge to tip every time you make a cocktail at home and think of Amaros', miss going
-      out and hanging out at The Grocery, wish you were drinking a latte at Compass, wish you had a wood-fired oven so you could slam a pizza from Dice-K, demolishing that taco from 
-      Little Conejo or sipping that fine IPA from Brother's Cascadia. 
-    </p>
+      <h3>Take the pledge to tip every time you pour your drink at home and find yourself…</h3>
+      <p>pretending you’re fireside at <a href="https://www.amarostable.com/order-now">Amaros'</a>,</p> 
+      <p>missing Salty Makers at <a href="http://www.thegrocerycocktailsocial.com/menu#food">The Grocery</a>,</p> 
+      <p>longing for a latte from <a href="http://www.compasscoffeeroasting.com/shop"> Compass</a>,</p>  
+      <p>dreaming of pizza from <a href="https://lasorrentinavw.com/menu/"> La Sorrentina</a>,</p> 
+      <p>drooling over thoughts of <a href="https://www.littleconejoonline.com/"> Little Conejo</a>,</p> 
+      <p>or swooning over an IPA from <a href="https://bcbonline.square.site/">Brother's Cascadia</a>.</p> </p>
+      <strong>And keep supporting local business</strong>
     
+
   </div>
 );
 
