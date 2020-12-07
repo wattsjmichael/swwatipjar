@@ -1,0 +1,211 @@
+@import "reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap");
+
+$small: 400px;
+$medium: 700px;
+$large: 1000px;
+
+$text: #C773B6;
+$bg: #21BAE5;
+$tangerine: #C773B6;
+$mint: #e2efbb;
+$peach:#2964BF;
+$border: $peach;
+$green: #3C478B;
+$link:#2964BF;
+
+@import "modal.scss";
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: $bg;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  border: 10px solid $border;
+
+  @media (min-width: $medium) {
+    border: 20px solid $border;
+  }
+}
+
+footer {
+  padding: 30px 0;
+  background: $border;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 20px;
+
+  @media (min-width: $medium) {
+    padding: 20px;
+  }
+}
+
+a {
+  color: $link;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.site-header {
+  padding: 30px;
+  text-align: center;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+  }
+}
+
+nav {
+  a {
+    display: block;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #C773B6;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #C773B6;
+  }
+}
+
+.logo {
+  border-radius: 100%;
+  transition: all 0.1s ease-out;
+  margin: 0;
+
+  &:hover {
+    box-shadow: 0 0 0 10px rgb(122, 139, 214);
+    transform: rotate(20deg);
+  }
+}
+
+.table-header {
+  margin-bottom: 20px;
+  h2 {
+    font-size: 18px;
+  }
+
+  input {
+    background: url("/images/search.svg") #fff no-repeat 5px 50%;
+    padding-left: 35px;
+    width: 100%;
+  }
+
+  @media (min-width: $medium) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      margin: 0;
+    }
+
+    input {
+      width: auto;
+    }
+  }
+}
+
+.table {
+  .payment-button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .person {
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    text-decoration: underline dotted;
+    color: $link;
+  }
+}
+
+.rdt_TableBody {
+  max-height: 100% !important;
+}
+
+.intro p {
+  font-size: 16px;
+  line-height: 1.5;
+
+  @media (min-width: $medium) {
+    font-size: 18px;
+  }
+}
+
+.pledge {
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 2px solid $peach;
+
+  img {
+    max-width: calc(50% - 40px);
+    margin: 10px;
+  }
+}
+
+.random-button {
+  @extend .button;
+  background-color: $green;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  padding: 10px 30px;
+  margin: 20px 0;
+  font-size: 18px;
+  border: 1px solid $green;
+}
+
+.button {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+
+  &.cashapp {
+    background-color: #28c101;
+  }
+
+  &.paypal {
+    background-color: #003087;
+  }
+
+  &.venmo {
+    background-color: #3d95ce;
+  }
+
+  @media (min-width: $medium) {
+    font-size: 18px;
+  }
+}
