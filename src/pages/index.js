@@ -37,8 +37,8 @@ const Pledge = () => (
     <h2>Take the pledge!</h2>
     <p>
       Take the pledge to tip every time you make a cocktail at home and think of Amaros', miss going
-      out and hanging out at The Grocery, wish you were drinking a latte at Compass, wish you had a wood-fired oven so you could slam a pizza from Dice-K, or demolish that taco from 
-      Little Conejo. 
+      out and hanging out at The Grocery, wish you were drinking a latte at Compass, wish you had a wood-fired oven so you could slam a pizza from Dice-K, demolishing that taco from 
+      Little Conejo or sipping that fine IPA from Brother's Cascadia. 
     </p>
     
   </div>
