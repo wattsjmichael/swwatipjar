@@ -9,7 +9,7 @@ const AboutPage = () => (
     <h1>About</h1>
     <p>
       Its been a long time. I miss my restaurant family and since I have been
-      hunkered down studying code, I wanted to help some way. Here is my contribution
+      hunkered down studying code, I wanted to help some way. Here is my contribution,
       a place where we can take care of our favorite people in the restaurant world.
       We all miss you and this will be a great way to help each other get through this
       pandemic. 
