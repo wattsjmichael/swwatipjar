@@ -29,6 +29,7 @@ const Intro = () => (
       <Link to="/signup">fill out the form to receive tips</Link> directly
       through your Cashapp, Venmo, or PayPal.
     </p>
+    <p>Friendly reminder all the answers to the questions are public-facing.<em>So be cool</em></p>
   </div>
 );
 
