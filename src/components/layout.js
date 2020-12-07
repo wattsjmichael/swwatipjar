@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
       <footer>
         <Link to="/">Home</Link> | <Link to="/about">About</Link> |{" "}
         <Link to="/donate">Donate</Link> | <Link to="/signup">Sign up</Link> |{" "}
-        <OutboundLink href="https://github.com/wattsjmichael/couvtipjar">
+        <OutboundLink href="https://github.com/wattsjmichael/swwatipjar">
           GitHub
         </OutboundLink>
       </footer>
