@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
@@ -12,7 +12,7 @@ const AboutPage = () => (
 Here is my contribution, a place where we can take care of our favorite people in the restaurant world. We all miss you and this is a great way to help each other get through this pandemic. I'm following the examples of Portland, DC, Pittsburgh, and Indianapolis by starting a Virtual Tip Jar 
     </p>
     <p>
-    If you'd like to support our Southwest Washington Service Industry workers during these uncertain--and very stressful--times, click <a href="swwatipjar.com/donate/">here</a>. A small contribution can help these folks stay afloat. I know we want to hangout with them right now, but we have to hunker down. Let's all pitch in and take care of our favorite people!
+    If you'd like to support our Southwest Washington Service Industry workers during these uncertain--and very stressful--times, click <Link to="/donate">here</Link>. A small contribution can help these folks stay afloat. I know we want to hangout with them right now, but we have to hunker down. Let's all pitch in and take care of our favorite people!
     </p>
     <p>Grateful for your support,</p>
     <p>Michael Watts</p>
